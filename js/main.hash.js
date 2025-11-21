@@ -2,7 +2,7 @@
 // Exposes: window.validatePrivatePassword(password) -> boolean
 
 (function () {
-  const correctPasswordHash = "548077a7b9ade2d9a93fc95c8a5682a6"; // MD5
+  const correctPasswordHash = "5d41402abc4b2a76b9719d911017c592"; // MD5
 
   // Public API used by index.html
   window.validatePrivatePassword = function (pw) {
